@@ -26,7 +26,8 @@
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: 
-
+Basically because of the way closures Worker. Similar to how CSS cascades from the top down, closures also work from top down and with the variable 'internal' being nested inside 
+inside of nestedFunction, which is nested inside of myFunction, internal will be accessed.
 
 const external = "I'm outside the function";
 
